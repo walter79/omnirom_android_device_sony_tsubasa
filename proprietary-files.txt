@@ -19,6 +19,7 @@ bin/hci_qcomm_init
 #
 # Camera
 #
+bin/cal_data_manager
 lib/hw/camera.msm8960.so:lib/hw/vendor-camera.msm8960.so
 lib/hw/camera.qcom.so:lib/hw/vendor-camera.qcom.so
 lib/libcamera_clientsemc.so
@@ -346,7 +347,6 @@ etc/firmware/wcnss.b05
 etc/firmware/wcnss.mdt
 
 # Misc - possibly to remove
-bin/cal_data_manager
 bin/chargemon
 bin/cnd
 bin/fast-dormancy
